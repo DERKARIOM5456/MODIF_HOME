@@ -130,3 +130,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+source /etc/profile.d/bash_completion.sh
+alias go='. go'
